@@ -1,0 +1,38 @@
+.subway-map
+{
+    clear:both;
+    margin: 0;
+    width: 900px;
+    height:480px;
+    background-color: white;
+}
+.text
+{
+    font-family: Verdana;
+    font-size: 8pt;
+    text-decoration: none;
+    color: black;
+}
+#legend
+{
+    float: left;
+    width: 900px;
+    height:100px;
+    margin-top: 35px;
+}
+#legend div
+{
+    height: 25px;
+}
+#legend span
+{
+    margin: 5px 5px 5px 0;
+}
+.subway-map span
+{
+    margin: 5px 5px 5px 0;
+}
+#main
+{
+    width: 950px;
+}

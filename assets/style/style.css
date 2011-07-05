@@ -1,0 +1,456 @@
+/*
+Theme Name: Ascent 
+Theme URI: http://www.aegaming.com 
+Description: A clean and contemporary theme.
+Author: Andrew Falzon 
+Author URI: http://www.aegaming.com
+Version: 1.0
+*/ 
+
+/* Typography */
+
+html, body {
+	font-family: Helvetica, Arial, sans-serif;
+	background: #EDEEEF url(/assets/images/body_bg.png) repeat-y center fixed;
+}
+
+h1, h2 { font-family: "Trebuchet MS", Helvetica, sans-serif; }
+
+h1 {
+	font-weight: bold;
+	font-size: 20px;
+	color: #E6E6E6;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 18px;
+	color: #363636;
+}
+
+h3 {
+	float: left;
+	font-size: 15px;
+	color: #FFFFFF;
+	background: #747474;
+	padding: 4px 8px;
+}
+
+p {
+	font-size: 12px;
+	color: #696969;
+	margin-top: 10px;
+	line-height: 20px;
+}
+
+/* Links */
+
+a {
+	text-decoration: none;
+	color: #7D8713;
+}
+
+a:hover { text-decoration: underline; }
+
+#navigation a { color: #F2F2F2; }
+
+#navigation a:hover, #navigation a.selected {
+	text-decoration: none;
+	color: #C0CF20;
+}
+
+h2 a { color: #363636; }
+
+.post_header a { color: #696969; }
+
+/* Structure */
+
+#wrapper {
+	margin: 0 auto;
+	padding-bottom: 50px;
+	position: relative;
+	width: 960px;
+}
+
+/* Header */
+
+#header, #page_header {
+	background: #FFFFFF url(/assets/images/header_bg.png) repeat-x;
+	position: relative;
+	height: 356px;
+	width: 100%;
+}
+
+#page_header {
+	background-image: url(/assets/images/page_header_bg.png);
+	height: 160px;
+}
+
+#header .content, #page_header .content {
+	width: 605px;
+	height: 334px;
+	padding: 22px 10px 0 40px;
+}
+
+#page_header .content { height: 138px; }
+
+#page_header #logo { height: 32px; }
+
+#page_header #logo h1 {
+	font-size: 21px;
+	text-align: left;
+	margin-top: 3px;
+}
+
+.tracker {
+	width: 100%;
+	float: left;
+}
+
+.tracker p { margin-top: 58px; }
+
+/* Logo */
+
+#logo {
+	float: left;
+	width: 93px;
+	height: 134px;
+}
+
+
+#logo h1 { text-align: center; }
+
+#logo p {
+	float: left;
+	width: auto;
+}
+
+/* Navigation */
+
+#navigation {
+	float: left;
+	margin: 8px 0 0 68px;
+	font-size: 14px;
+	width: 373px;
+	height: 32px;
+	text-transform: lowercase;
+}
+
+#navigation ul li {
+	margin-right: 35px;
+	display: inline;
+}
+
+/* Feature */
+
+#feature_drop_shadow {
+	float: left;
+	background: url(/assets/images/feature_shadow.png) no-repeat -95px 110px;
+	position: absolute;
+	left: 133px;
+	top: 97px;
+	width: 510px;
+	height: 259px;
+}
+
+#feature_shadow {
+	display: inline-block;
+	background: url(/assets/images/feature_bg.png) no-repeat 0 4px;
+	margin-left: 65px;
+	width: 379px;
+	height: 238px;
+}
+
+#feature {
+	background: #ECECEC;
+	position: relative;
+	overflow: scroll;
+	margin: 4px;
+	border: 1px solid #FFFFFF;
+	width: 373px;
+	height: 232px;
+}
+
+#feature p { margin-top: 3px; }
+
+.feature_slides {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.feature_slide {
+	float: left;
+	overflow: hidden;
+	margin: 10px;
+	width: 353px;
+	height: 212px;
+}
+
+.feature_slide p { line-height: 17px; }
+
+.feature_image {
+	border: 1px solid #FFFFFF;
+	margin-bottom: 15px;
+	width: 350px;
+	height: 140px;
+	clear: both;
+}
+
+#feature_navigation {
+	position: absolute;
+	overflow: hidden;
+	left: 40px;
+	top: 206px;
+	width: 93px;
+	height: 131px;
+}
+
+#feature_navigation ul { position: absolute; }
+
+#feature_navigation ul li {
+	background: url(/assets/images/feature_bullet_off.gif) no-repeat left;
+	text-indent: 32px;
+	margin-bottom: 5px;
+	cursor: pointer;
+}
+
+#feature_navigation ul li:hover, #feature_navigation ul li.cnav_selected { background-image: url(/assets/images/feature_bullet.gif); }
+
+#feature_navigation ul li img {
+	border: 2px solid #DFDFDF;
+	width: 57px;
+	height: 21px;
+}
+
+/* Main */
+
+#main {
+	background: #FAFAFA url(/assets/images/border_bg.gif) repeat-x;
+	padding-top: 30px;
+	width: 100%;
+}
+
+#main .content {
+	width: 575px;
+	height: 100%;
+	padding-left: 40px;
+}
+
+/* Post */
+
+.post, .post_header {
+	clear: both;
+	width: 537px;
+	padding-bottom: 15px;
+}
+
+.post_content p {
+	font-size: 14px;
+	margin-bottom: 12px;
+}
+
+.post_header {
+	float: left;
+	width: inherit;
+}
+
+.post_header h2 {
+	float: left;
+	font-size: 24px;
+	width: auto;
+}
+
+.post_header p {
+	float: right;
+	color: #939393;
+	width: auto;
+	line-height: 12px;
+}
+
+.post_image, .post_image_left, .post_image_right {
+	background: #FFFFFF;
+	border: 1px solid #D3D3D3;
+	padding: 10px;
+	clear: both;
+	text-align: center;
+}
+
+.post_image img { border: 1px solid #000000; }
+
+.post_image_left {
+	float: left;
+	margin-right: 15px;
+}
+
+.post_image_right {
+	float: right;
+	margin-left: 15px;
+}
+
+.post_image_left, .post_image_right { width: auto; }
+
+.post_footer {
+	padding-bottom: 20px;
+	margin: 30px 0 30px 0;
+	border-bottom: 1px solid #D9D9D9;
+}
+
+.post_footer .comments, .post_footer .read_more {
+	font-size: 13px;
+	background-repeat: no-repeat;
+	background-position: left 3px;
+	padding: 5px 0 0 23px;
+	width: 130px;
+	height: 16px;
+	display: inline-block;
+}
+
+.post_footer .comments { background-image: url(/assets/images/comments_icon.gif); }
+
+.post_footer .read_more { background-image: url(/assets/images/read_more_icon.gif); }
+
+/* Sidebar */
+
+#sidebar {
+	font-size: 15px;
+	position: absolute;
+	left: 615px;
+	top: 22px;
+	width: 300px;
+}
+
+#sidebar .content {
+	float: left;
+	background: #FCFCFC;
+	border: 1px solid #D3D3D3;
+	border-top: none;
+	padding: 13px 18px;
+	margin-top: 43px;
+	width: 264px;
+}
+
+#sidebar .content .box {
+	float: left;
+	margin-bottom: 30px;
+}
+
+#sidebar .content .post_image_left, #sidebar .content .post_image_right { margin-top: 5px; }
+
+#sidebar .content .box_header {
+	height: 15px;
+	margin-bottom: 15px;
+}
+
+#sidebar #search {
+	background: url(/assets/images/search_bg.png) no-repeat;
+	padding: 4px;
+	width: 247px;
+	height: 28px;
+}
+
+#sidebar #search input {
+	background: #FAFAFA;
+	padding: 4px;
+	color: #A5A5A5;
+	width: 202px;
+	height: 16px;
+	border: none;
+}
+
+#sidebar .box > ul li {
+	float: left;
+	background: url(/assets/images/feature_bullet_off.gif) no-repeat left 5px;
+	border-bottom: 1px dotted #BBBBBB;
+	padding: 0 0 7px 12px;
+	margin: 8px 15px 0 0;
+	width: 100px;
+	display: inline;
+}
+
+#sidebar .box > ul li.selected { background-image: url(/assets/images/feature_bullet.gif); }
+
+#sidebar_header {
+	width: 300px;
+	height: 36px;
+}
+
+#sidebar_header .left {
+	float: left;
+	width: auto;
+}
+
+#sidebar_header .right {
+	float: right;
+	padding-top: 2px;
+	width: auto;
+}
+
+/* Forms */
+
+#main form {
+	float: left;
+	margin-top: 15px;
+	width: auto;
+}
+
+label {
+	display: block;
+	font-size: 13px;
+	font-weight: bold;
+	color: #696969;
+	margin-bottom: 10px;
+}
+
+#main input, #main textarea {
+	display: block;
+	border: 1px solid #BBBBBB;
+	padding: 4px;
+	margin-bottom: 15px;
+}
+
+input { width: 250px; }
+
+textarea { width: 350px; }
+
+#main input.button {
+	float: left;
+	width: auto;
+	color: #FFFFFF;
+	background: #747474;
+	border: none;
+	padding: 4px 8px;
+	margin-right: 5px;
+	cursor: pointer;
+}
+
+/* AJAX Loader */
+
+#main .loader {
+	float: right;
+	position: relative;
+	bottom: 3px;
+}
+
+#main .loader img {
+	vertical-align: middle;
+	margin-bottom: 2px;
+}
+
+#main .loader p {
+	display: inline;
+	font-style: italic;
+	margin-left: 10px;
+}
+
+/* Footer */
+
+#footer {
+	position: absolute;
+	bottom: 0;
+	background: #FFFFFF url(/assets/images/border_bg.gif) repeat-x;
+	width: 100%;
+	height: 50px;
+}
+
+#footer .content { padding: 6px 40px; }
