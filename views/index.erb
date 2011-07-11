@@ -113,8 +113,12 @@
 				<div class="box_header">
 					<h3>Practices</h3>
 				</div>
-				<div id="sliderlist" style="width:200px; height: 500px;">
-			</div>                        
+				<ul>
+					<li><a href="#">Map</a></li>
+					<li><a href="#" onClick="$('#sliderlist').toggle('fast')">A to Z</a></li>
+				</ul>
+				<div id="sliderlist" style="width:200px; height: 560px; display: none"></div>
+			</div>
 			<div class="box">
 				<div class="box_header">
 					<h3>Institut Agile Sponsors</h3>
@@ -134,7 +138,7 @@
 		</div>
 	</div>
 
-	</div>
+
 
 	<div id="footer">
 		<div class="content"><p>© Copyright 2011 Institut Agile</p></div>
@@ -159,7 +163,7 @@
 		autostep: 		{
 							enable:true, 
 							moveby:1, 
-							pause:5000},
+							pause:20000},
 		panelbehavior: 	{
 							speed:500, 
 							persist:false
