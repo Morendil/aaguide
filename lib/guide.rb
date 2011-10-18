@@ -16,7 +16,7 @@ class Guide < Sinatra::Base
   end
 
   get '/' do
-    erb :index, :layout=>false
+    erb :index
   end
 
   get '/guide/:practice.html' do |practice|

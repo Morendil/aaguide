@@ -1,88 +1,88 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Guide to Agile Practices</title>
-<link rel="stylesheet" href="/assets/style/reset.css" type="text/css" />
-<link rel="stylesheet" href="/assets/style/style.css" type="text/css" media="screen" />
-<!--[if lt IE 7]>
-<link rel="stylesheet" href="/assets/style/ie6.css" type="text/css" />
+<link rel="stylesheet" href="/assets/style/screen.css" type="text/css" media="screen"/>
+<link rel="stylesheet" href="/assets/style/print.css" type="text/css" media="print"/>
+<!--[if IE]>
+<link rel="stylesheet" type="text/css" href="/assets/style/ie.css" media="screen" />
 <![endif]-->
+<!--[if IE 8]>
+<link rel="stylesheet" type="text/css" href="/assets/style/ie8.css" media="screen" />
+<![endif]-->
+<!--[if IE 7]>
+<link rel="stylesheet" type="text/css" href="/assets/style/ie7.css" media="screen" />
+<![endif]-->
+<!--[if lte IE 6]>
+<link rel="stylesheet" type="text/css" href="/assets/style/ie6.css" media="screen" />
+<![endif]-->
+
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script>
-<script src="/assets/js/global.js" type="text/javascript"></script>
 </head>
-<body>
-<div id="wrapper">
-	<div id="page_header">
-		<div class="content">
-			<div class="col">
-				<div id="logo">
-					<h1>G.A.P.</h1>
-				</div>
-			</div>
-			<div class="col">
-				<div id="navigation">
-					<ul>
-						<li><a href="/">Home</a></li>
-						<li><a href="about.html">About</a></li>
-					</ul>
-				</div>
-			</div>
-			<div class="tracker">
-				<p><a href="/">Home</a> &nbsp;&gt;&nbsp; <a href="#">Practices</a></p>
-			</div>
-		</div>
-	</div>
-	<div id="main">
-		<div class="content">
-                        <%= yield %>
-        	</div>
-	</div>
-	<div id="sidebar">
-		<div id="sidebar_header">
-			<div class="left">
-				<div id="search">
-					<form name="search" action="">
-						<input id="search_box" name="query" onfocus="searchFocus();" value="" type="text" />
-					</form>
-				</div>
-			</div>
-			<div class="right"> <img src="/assets/images/feed_icon.gif" alt="RSS Feed" /> </div>
-		</div>
-		<div class="content">
-			<div class="box">
-				<div class="box_header">
-					<h3>Practices</h3>
-				</div>
-				<ul>
-					<li><a href="#">Map</a></li>
-					<li><a href="#" onClick="$('#sliderlist').toggle('fast')">A to Z</a></li>
-				</ul>
-				<div id="sliderlist" style="width:200px; height: 560px; display: none"></div>
-			</div>
-			<div class="box">
-				<div class="box_header">
-					<h3>Sections</h3>
-				</div>
-				<ul>
-					<li><a href="#">Name</a></li>
-					<li><a href="#desc">Description</a></li>
-					<li><a href="#syno">Synonyms</a></li>
-					<li><a href="#abus">Pitfalls</a></li>
-					<li><a href="#benefits">Benefits</a></li>
-					<li><a href="#costs">Costs</a></li>
-					<li><a href="#progression">Skill levels</a></li>
-					<li><a href="#histo">History</a></li>
-					<li><a href="#resources">Resources</a></li>
-					<li><a href="#research">Research</a></li>
-				</ul>
-			</div>
-		</div>
-	</div>
-	<div id="footer">
-		<div class="content"><p>© Copyright 2011 Institut Agile</p></div>
-	</div>
-</div>
+<body id="subpage">
+<div id="page">
+  <div id="wrapper">
+
+  <div id="header">
+    <a href="/" alt="Agile Alliance"><img id="logo" src="http://agilealliance.org/themes/aga1/images/logo.gif" width="106" height="95" border="0" /></a>
+    <div id="headernav">			
+      <ul id="prinav">
+        <li class="nav-path-selected" id="nav1"><a class="nav-path-selected" href="http://agilealliance.org/">Home</a></li>
+      <li id="nav2"><a href="http://agilealliance.org/the-alliance/">The Alliance</a></li>
+      <li id="nav3"><a href="http://agilealliance.org/events/">Events</a></li>
+      <li id="nav4"><a href="http://agilealliance.org/resources/">Resources</a></li>
+      <li id="nav5"><a href="http://agilealliance.org/community-groups/">Community Groups</a></li>
+    </ul>
+      <ul id="suppnav">
+        <li><a href="http://agilealliance.org/news/">News</a></li>
+        <li class="nav-selected nav-path-selected"><a class="nav-selected nav-path-selected" href="http://agilealliance.org/programs/">Programs</a></li>
+        <li><a href="http://agilealliance.org/membership/">Membership</a></li>
+        <li><a href="http://agilealliance.org/sponsorship/">Sponsorship</a></li>
+      </ul>
+    </div><!-- end #headernav -->
+    <div id="utility">
+      <a href="https://cf.agilealliance.org/membership/login.cfm" class="popup left">Member Login</a><span class="separator">|</span><a href="https://cf.agilealliance.org/sponsorship/login.cfm" class="popup right">Sponsor Login</a>
+      </div>
+    </div>
+
+    <div id="central">
+      <div id="sidebar">
+        <h2>Guide to Agile Practices</h2>
+        <ul class="nav">
+          <li>The Map</li>
+          <li>Guide on the Go</li>
+        </ul>
+        <div id="sliderlist"></div>
+        <div class="callout">
+          <h1 style="text-align: center;"><span style="color: #5c95b6;"><a href="http://agileindia2012.agilealliance.org" target="_blank">AgileIndia2012</a></span></h1><p><span style="color: #5c95b6;"><br /></span></p>
+<h3 class="intro" style="text-align: center;"><span style="color: black;">Bangalore, India</span></h3><h3 class="intro" style="text-align: center;"><span style="color: black;"> Coming in February, 2012</span></h3>
+<p class="intro"><span style="font-size: small;"><span style="font-size: 13px; font-weight: normal;"><br /></span></span></p><p><span style="font-size: small;"><span style="font-size: 13px; font-weight: normal;"><br /></span></span></p>
+        </div> 
+      </div>		
+
+      <div id="main">	
+        <%= yield %>
+      </div>		
+    </div>		
+
+    <div id="footer">
+      <div id="footerbar">
+        <p>&copy; 2011 Agile Alliance and Institut Agile. All rights reserved.</p>
+          <ul>
+            <li class="first"><a href="/site-map/">Site Map</a></li>
+            <li><a href="/site-search/">Site Search</a></li>
+            <li><a href="/contact-us/">Contact Us</a></li>
+          </ul>
+      </div>
+      <div id="sponsors">
+        <iframe frameborder="0" marginheight="0" marginwidth="0" scrolling="no" width="920px" height="71px" src="http://cf.agilealliance.org/sponsorship/logos.cfm"></iframe>
+        <p>These companies are proud supporters of the Agile Alliance. <a href="http://www.agilealliance.org/sponsorship/">Learn more about the benefits of sponsorship &raquo;</a></p>
+      </div>
+    </div><!-- end #footer -->
+
+  </div><!-- end #page -->
+</div><!-- end #wrapper -->
 <script type="text/javascript">
         $(function() {
           $("#sliderlist").load("/alpha.html");

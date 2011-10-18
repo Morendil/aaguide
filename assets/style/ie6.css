@@ -1,5 +1,11 @@
-/* Internet Explorer 6 Fixes */
 
-/* Feature */
-#feature_navigation { top: 244px; }
+#main .image_right, #main .image_left {
+	width:expression(document.body.clientWidth > 320? "320px": "auto" );
+}
+ul#utility  {
+	padding:80px 8px 0;
+}
+ul#utility li  {
+	padding:0 8px;
+}
 
