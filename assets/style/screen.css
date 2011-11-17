@@ -55,13 +55,11 @@ blockquote, q {
 ------------------------------- */
 
 body {
-	text-align:center;
 	color:#565656;
 	font-size: 12px;
 	font-family: Arial, sans-serif;
 	line-height:1.4em;
 	padding-bottom:40px;
-	background:#035f6e;
 }
 
 #page {
