@@ -22,6 +22,7 @@ sections:
   -
     type: histo
     text: |
+      
       The names of various celebrities have been invoked in an attempt to imbue pair programming with an aura of necessity if not sanctity: anecdotes of John Von Neummann, Fred Brooks, Jerry Weinberg, Richard Gabriel or [Edsger Dijkstra](http://c2.com/cgi/wiki?DijkstraPairProgramming) using the practice are fascinating but sometimes hard to substantiate.
       However, the following timeline of verifiable sources does suggest that pair programming, in its modern form, has been around since well before the Agile movement:
 
