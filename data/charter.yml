@@ -26,8 +26,9 @@ sections:
   -
     type: histo
     text: |
+      The adoption of project chartering by the Agile community has been slow and gradual; the slight uptick in popularity as of 2010 presumably originates in the community's intention to address constant criticism that Agile fails to address "big picture" concerns.
+
       * 2001: the article which will later come to largely define project chartering as an agile practice is published: ["Immunizing Against Predictable Project Failure"](http://www.industriallogic.com/papers/Chartering.pdf)
       * 2003: Joshua Kerievsky at Industrial Logic publishes "[Industrial XP](http://industrialxp.org/)", a set of proposed extensions to Extreme Programming which includes the Project Chartering activity, essentially as defined by the 2001 article
       * 2006: Jean Tabaka's book "[Collaboration Explained](http://www.amazon.com/dp/0321268776)" references project chartering as one of the key practices for effective collaboration; though she explicitly cites Industrial XP her presentation differs in several respects from the 2001 article, indicating a synthesis influenced by other sources
-      * the adoption of project chartering by the Agile community has been slow and gradual; the slight uptick in popularity experience as of 2011 presumably originates in the community's intention to address constant criticism that Agile fails to address "big picture" concerns
 ---
