@@ -41,6 +41,15 @@ p opts
     erb (haml (mustache :dash, {}, opts))
   end
 
+  get '/timeline.html' do
+    @values = roadmap.all.collect do |each|
+      each["sections"].select {|s| s["type"] == "histo"} if each["full"]
+    end
+    @values = @values.flatten.compact.collect {|s| s["text"]}
+    @values = @values.flatten.sort.reject {|l| l.strip == "" || l.strip[0] != "*"}
+    erb (markdown (@values.join))
+  end
+
   get '/subway.html' do
     erb :subway, :layout=>false
   end
