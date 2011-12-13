@@ -24,6 +24,7 @@ sections:
     text: |
       * 2001: some techniques of exploratory technique, together with a first mention  of the "context driven school of software testing", are introduced in Kaner, Bach and Pettichord's "[Lessons Learned in Software Testing](http://www.amazon.com/dp/0471081124)"
       * 2001: an avowed member of the "context-driven" school of software testing, Brian Marick participates in the Snowbird event leading to the publication of the Agile Manifesto; he has often described himself as the "token tester" of the group, bringing some awareness of practices within exploratory testing to the Agile community
+      * 2008: an emerging definition of exploratory testing is [given by Cem Kaner](http://kaner.com/?p=46), reflecting the continuing refinement of this approach to testing
 
       The Agile movement has indubitably contributed to renewed interest from the developer community in the activities of testing, which were previously not seen as requiring a high level of skill. However, and somewhat paradoxically, it has also led to lessened respect for the value of skilled testers, as a result of shifting some test-related responsibilities to the developer role. In spite of this mixed influence, exploratory testing is still slowly gaining acceptance as part of a broader "Agile testing" skill set.
 ---
