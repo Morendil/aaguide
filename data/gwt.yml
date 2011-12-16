@@ -5,6 +5,8 @@ id: gwt
 full: yes
 sections:
   -
+    type: desc
+    text: |
       The Given-When-Then formula is a template intended to guide the writing of [acceptance tests](acceptance.html) for a [User Story](story.html):
 
       *  (Given) some context
