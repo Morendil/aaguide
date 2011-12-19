@@ -37,7 +37,6 @@ class Guide < Sinatra::Base
     opts[:parts].each do |each|
       each[:pct] = sprintf( "%0.0f",each[:full]*100.0/each[:total])
     end
-p opts
     erb (haml (mustache :dash, {}, opts))
   end
 
