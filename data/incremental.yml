@@ -14,6 +14,8 @@ sections:
   -
     type: histo
     text: |
-      * 1984: while criticisms of the "waterfall" sequential approach have started much earlier, formulations of alternative incremental approaches are becoming more precise; a good example is an early paper on "[Knowledge-based communication processes in software engineering](http://dl.acm.org/citation.cfm?id=801993)" advocating incremental development for the specific reason that "complete and stable specifications are not available".
+      * 1980: substantial discussion of incremental development in IBM's Federal Systems Division can be found in a volume edited by Harlan Mills, "[Principles of software engineering](http://trace.tennessee.edu/cgi/viewcontent.cgi?article=1004&context=utk_harlan)", specifically an article by Dyer, which recommends "organiz[ing] each increment to maximize the separation of its function(s) from function(s) in other increments"; however, the idea is still very much that of a scheduled, phased approach rather than one responsive to change
+      * 1984: while criticisms of the "waterfall" sequential approach have started much earlier, formulations of alternative incremental approaches are becoming more pointed; a good example is an early paper on "[Knowledge-based communication processes in software engineering](http://dl.acm.org/citation.cfm?id=801993)" advocating incremental development for the specific reason that "complete and stable specifications are not available".
+      * 1985: perhaps the first explicitly named, incremental alternative to the "waterfall" approach is Tom Gilb's [Evolutionary Delivery Model](http://dl.acm.org/citation.cfm?id=1012490), nicknamed "Evo"
       * 1999: in an [article](http://www.objectmentor.com/resources/articles/IIDII.pdf) for the C++ Report, Robert C. Martin gives what is perhaps the earliest description of the Agile sense of the terms "iterative" and "incremental"
 ---
