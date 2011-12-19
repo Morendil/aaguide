@@ -19,6 +19,6 @@ sections:
   -
     type: histo
     text: |
-      *  2003: the INVEST cheklist for quickly evaluating user stories originates in [an article](http://xp123.com/articles/invest-in-good-stories-and-smart-tasks/) by Bill Wake, which also repurposed the acronym SMART (Specific, Measurable, Achievable, Relevant, Time-boxed) for tasks resulting from the technical decomposition of user stories.
-      *  2004: the INVEST acronym is among the techniques recommended in Mike Cohn's "[User Stories applied](http://www.amazon.com/dp/0321205685)", which discusses it at length in Chapter 2.
+      * 2003: the INVEST cheklist for quickly evaluating user stories originates in [an article](http://xp123.com/articles/invest-in-good-stories-and-smart-tasks/) by Bill Wake, which also repurposed the acronym SMART (Specific, Measurable, Achievable, Relevant, Time-boxed) for tasks resulting from the technical decomposition of user stories.
+      * 2004: the INVEST acronym is among the techniques recommended in Mike Cohn's "[User Stories applied](http://www.amazon.com/dp/0321205685)", which discusses it at length in Chapter 2.
 ---
