@@ -10,7 +10,7 @@
 .slider-content ul { float: left; width: 100%; display: block; position: relative; }
 .slider-content ul li { float: left; width: 100%; }
 .slider-content ul ul li a { display: block; border-bottom: 1px solid #f3f3f3; text-transform: capitalize; }
-.slider-content ul ul li a:hover { background: #f3faff; border-color: #d5ebf9; }
+.slider-content ul ul li a:hover { background: #464749; border-color: #d5ebf9; }
 .slider-content .title { text-indent: 10px; background: #bbb; color: #fff; width: 100%; float: left; font-weight: bold; text-transform: uppercase; }
 .slider-content .selected .title { background: #666; }
 .slider .slider-nav { position: absolute; right: 0; top: 0; background: #666; min-height: 250px; }
