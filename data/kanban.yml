@@ -9,7 +9,7 @@ sections:
     text: |
       The term "kanban" refers to a style of Agile planning which modifies several well-known Agile practices:
 
-      * it dispenses with [iterations](iteration.html), [effort estimates](estimation.html) and measuring [vélocité](velocity.html);
+      * it dispenses with [iterations](iteration.html), [effort estimates](estimation.html) and measuring [velocity](velocity.html);
       * it relies on measures of [lead time](leadtime.html) or cycle time instead of velocity
       * finally, the most visible alteration replaces the [task board](taskboard.html) with a "kanban board":
         * unlike a task board, the kanban board is not "reset" at the beginning of each iteration
@@ -35,7 +35,7 @@ sections:
   -
     type: histo
     text: |
-      * 2001: Mary Poppendieck's article, "[Lean Programming]", draws attention to the structural parallels between Agile and the ideas known as Lean or the "Toyota Production System"
+      * 2001: Mary Poppendieck's article, "[Lean Programming](http://drdobbs.com/architecture-and-design/184414734)", draws attention to the structural parallels between Agile and the ideas known as Lean or the "Toyota Production System"
       * 2003: expanding on their earlier work on Lean Programming, Mary and Tom Poppendieck's book "[Lean Software Development](http://www.amazon.com/dp/0321150783)" describes the Agile task board as a "software kanban system"
       * 2007: the first few experience reports from teams using the specific set of alterations known as "kanban" (no iterations, no estimates, continuous task boards with WIP limits) are published, including reports from [Corbis](http://www.agilemanagement.net/AMPDFArchive/KanbanAtLeanNPD.pdf) (David Anderson) and BueTech (Arlo Belshee)
       * 2007: the "[kanbandev](finance.groups.yahoo.com/group/kanbandev/messages/1)" mailing list is formed to provide a venue for discussion of kanban-inspired Agile planning practices
