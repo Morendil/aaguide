@@ -15,13 +15,20 @@ class Guide < Sinatra::Base
     expires 500, :public, :must_revalidate
   end
 
+  def comments_on code
+    @code = code
+    @comments = erb :comments, :layout => false
+  end
+
   get '/' do
+    comments_on :index
     erb :index
   end
 
   get '/guide/:practice.html' do |practice|
+    comments_on practice
     @practice = roadmap.find_by_id practice
-    erb (haml (mustache :practice))
+    erb haml (mustache :practice)
   end
 
   get '/dash.html' do
