@@ -46,7 +46,8 @@ class Guide < Sinatra::Base
     end
     @values = @values.flatten.compact.collect {|s| s["text"]}
     @values = @values.flatten.sort.reject {|l| l.strip == "" || l.strip[0] != "*"}
-    erb (markdown (@values.join))
+    body = erb (markdown (@values.join)), :layout => :timeline
+    erb body
   end
 
   get '/subway.html' do

@@ -1,10 +1,11 @@
-%h1#firstHeading {{practice.title}}
-#practice
-  {{#practice.sections}}
-  %div#{{type}}
-    %h2= {{type}}
-    :markdown
-      {{#text}}
-      {{to_s}}
-      {{/text}}
-  {{/practice.sections}}
+%div#main
+  %h1#firstHeading {{practice.title}}
+  #practice
+    {{#practice.sections}}
+    %div#{{type}}
+      %h2= {{type}}
+      :markdown
+        {{#text}}
+        {{to_s}}
+        {{/text}}
+    {{/practice.sections}}
