@@ -13,7 +13,7 @@ sections:
       * write a **single** unit test describing an aspect of the program
       * run the test, which should fail because the program lacks that feature
       * write **just enough** code, the simplest possible, to make the test pass
-      * **refactor** the code until it conforms to the [simplicity criteria](simplicite.html)
+      * **refactor** the code until it conforms to the [simplicity criteria](simplicity.html)
       * repeat, **accumulating** unit tests over time
   -
     type: abus
