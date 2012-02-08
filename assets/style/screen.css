@@ -90,6 +90,10 @@ body {
 	border-bottom:20px solid #fff;
 	position:relative;
 }
+#central.nobg {
+	background:white;
+}
+
 #home #central {
 	background:#fff url(http://agilealliance.org/themes/aga1/images/bg_central_home.gif) no-repeat center top;
 	min-height:314px;

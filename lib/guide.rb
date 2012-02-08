@@ -58,12 +58,20 @@ class Guide < Sinatra::Base
   end
 
   get '/subway.html' do
-    erb :subway, :layout=>false
+    @variant = :bare
+    erb :subway
   end
 
   get '/alpha.html' do
     @parts = roadmap.all_by_alpha
     haml (mustache :alpha)
+  end
+
+  helpers do
+    def finish inner
+     layout = @variant || :central
+     erb inner, :layout => layout
+    end
   end
 
   get '/assets/style/style.css' do
