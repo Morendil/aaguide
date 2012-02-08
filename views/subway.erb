@@ -1,130 +1,174 @@
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script>
-<link rel="stylesheet" href="/assets/style/subway.css" type="text/css" />
-<script src="/assets/js/subway.js" type="text/javascript"></script>
-
-
-<div class="subway-map" data-columns="26" data-rows="20" data-cellsize="32" data-legendid="legend" data-textclass="text" data-gridnumbers="true" data-grid="false" data-linewidth="8">
-    
-    <ul data-color="#ff4db2" data-label="Extreme Programming">
-        <li data-coords="1,10" data-marker="station" data-labelpos="e">Sustainable Pace</li>
-        <li data-coords="3,10" data-marker="station" data-labelpos="s">Pair Programming</li>
-        <li data-coords="5,10" data-marker="station" data-labelpos="n">Sign up</li>
-        <li data-coords="7,10" data-marker="station" data-labelpos="s">Daily meeting</li>
-        <li data-coords="9,10" data-marker="station" data-labelpos="n">Iterations</li>
-        <li data-coords="11,10" data-marker="station" data-labelpos="s">Velocity</li>
-        <li data-coords="13,10" data-marker="station" data-labelpos="s">Frequent releases</li>
-        <li data-coords="15,10" data-marker="station" data-labelpos="n">User stories</li>
-        <li data-coords="17,10" data-marker="station" data-labelpos="s">Collective Ownership</li>
-        <li data-coords="19,10" data-marker="station" data-labelpos="n">Continuous Integration</li>
-        <li data-coords="21,10" data-marker="station" data-labelpos="s">Simple design</li>
-        <li data-coords="23,10" data-marker="station" data-labelpos="n">Refactoring</li>
-        <li data-coords="25,10" data-marker="station" data-labelpos="e">TDD</li>
-    </ul>
-    
-    <ul data-color="#feef00" data-label="Teams">
-        <li data-coords="1,12" data-marker="station" data-labelpos="e">Project charters</li>
-        <li data-coords="1,10"></li>
-        <li data-coords="1,9"></li>
-        <li data-coords="2,8" data-marker="station" data-labelpos="e">Scrum of Scrums</li>
-        <li data-coords="3,9" data-marker="station" data-dir="E" data-labelpos="e">Niko-niko</li>
-        <li data-coords="3,12" data-marker="station" data-labelpos="s">Team room</li>
-        <li data-coords="4,13" data-dir="S"></li>
-        <li data-coords="5,13" data-marker="station" data-labelpos="s">Heartbeat retrospective</li>
-        <li data-coords="7,13" data-marker="station" data-labelpos="n">Facilitation</li>
-        <li data-coords="8,14" data-dir="E"></li>
-        <li data-coords="8,15" data-marker="station" data-labelpos="e">Team</li>
-    </ul>
-    
-    <ul data-color="#ff8827" data-label="Lean">
-        <li data-coords="3,3" data-dir="N"></li>
-        <li data-coords="4,2"></li>
-        <li data-coords="7,2"></li>
-        <li data-coords="3,3" data-marker="@station" data-labelpos="s">Lead time</li>
-        <li data-coords="5,2" data-marker="@station" data-labelpos="s">Kanban board</li>
-    </ul>
-    
-    <ul data-color="#d82d3a" data-label="Scrum">
-        <li data-coords="10,15" data-marker="station" data-labelpos="s">Iterative development</li>
-        <li data-coords="10,12" data-marker="station" data-labelpos="e">Timebox</li>
-        <li data-coords="10,11"></li>
-        <li data-coords="9,10"></li>
-        <li data-coords="7,10"></li>
-        <li data-coords="6,9" data-dir="W"></li>
-        <li data-coords="6,8" data-marker="station" data-labelpos="e">Three Questions</li>
-        <li data-coords="6,6" data-marker="station" data-labelpos="e">Burndown chart</li>
-        <li data-coords="6,4" data-marker="station" data-labelpos="e">Task board</li>
-        <li data-coords="6,3"></li>
-        <li data-coords="7,2" data-dir="N"></li>
-        <li data-coords="7,2" data-marker="station" data-labelpos="n">Definition of Done</li>
-        <li data-coords="9,2" data-marker="station" data-labelpos="s">Definition of Ready</li>
-        <li data-coords="11,2" data-marker="station" data-labelpos="n">Point estimates</li>
-        <li data-coords="13,2" data-marker="station" data-labelpos="s">Relative estimation</li>
-        <li data-coords="15,2" data-marker="station" data-labelpos="n">Planning poker</li>
-        <li data-coords="17,2" data-marker="station" data-labelpos="s">Backlog</li>
-        <li data-coords="18,3" data-dir="E"></li>
-        <li data-coords="18,4" data-marker="station" data-labelpos="s">Backlog grooming</li>
-    </ul>
-    
-    
-    <ul data-color="#feaf6f" data-label="Product management">
-        <li data-coords="18,4"></li>
-        <li data-coords="18,6" data-marker="station" data-labelpos="s">Personas</li>
-        <li data-coords="17,7" data-dir="S"></li>
-        <li data-coords="16,7" data-marker="station" data-labelpos="s">Story mapping</li>
-        <li data-coords="15,8" data-marker="station" data-labelpos="s" data-dir="W">Story splitting</li>
-        <li data-coords="15,12" data-marker="station" data-labelpos="s">3 C's</li>
-        <li data-coords="14,13" data-dir="S"></li> 
-        <li data-coords="13,13" data-marker="station" data-labelpos="s">INVEST</li>
-        <li data-coords="12,14" data-dir="W"></li> 
-        <li data-coords="12,15" data-marker="station" data-labelpos="n">Incremental development</li>
-    </ul>
-        
-    <ul data-color="#009c60" data-label="Devops">
-        <li data-coords="18,8" data-marker="station" data-labelpos="s">Continuous deployment</li>
-        <li data-coords="19,9" data-dir="E"></li>
-        <li data-coords="19,13" data-marker="station" data-labelpos="w">Automated build</li>
-        <li data-coords="19,15" data-marker="station" data-labelpos="s">Version control</li>
-    </ul>
-    
-    <ul data-color="#4d0360" data-label="Design">
-        <li data-coords="19,7" data-marker="station" data-labelpos="s">Ubiquitous language</li>
-        <li data-coords="20,8" data-dir="E"></li>
-        <li data-coords="20,9"></li>
-        <li data-coords="21,10" data-dir="S"></li>
-        <li data-coords="23,10"></li>
-        <li data-coords="24,11" data-dir="E"></li>
-        <li data-coords="23,12" data-dir="S"></li>
-        <li data-coords="23,12" data-marker="station" data-labelpos="s">Rules of simplicity</li>
-        <li data-coords="22,12"></li>
-        <li data-coords="21,13" data-dir="W"></li>
-        <li data-coords="21,14" data-marker="station" data-labelpos="e">Quick design session</li>
-        <li data-coords="21,16" data-marker="station" data-labelpos="s">CRC cards</li>
-    </ul>
-    
-    <ul data-color="#034d60" data-label="Testing">
-        <li data-coords="20,3" data-marker="station" data-labelpos="s">Role-Feature</li>
-        <li data-coords="22,3" data-marker="station" data-labelpos="n">Given-When-Then</li>
-        <li data-coords="24,3" data-marker="station" data-labelpos="s">BDD</li>
-        <li data-coords="25,4" data-dir="E"></li>
-        <li data-coords="25,4" data-marker="station" data-labelpos="e">ATDD</li>
-        <li data-coords="25,6" data-marker="station" data-labelpos="e">Acceptance tests</li>
-        <li data-coords="25,8" data-marker="station" data-labelpos="e">Mock objects</li>
-        <li data-coords="25,12" data-marker="station" data-labelpos="e">Unit tests</li>
-        <li data-coords="25,14" data-marker="station" data-labelpos="e">Exploratory testing</li>
-        <li data-coords="25,16" data-marker="station" data-labelpos="s">Usability testing</li>
-    </ul>
-    
-    <ul data-color="#e4e4e4" data-label="Fundamentals">
-        <li data-coords="8,15"></li>
-        <li data-coords="19,15"></li>
-    </ul>
-        
+<div id="main" style="width:900px;background:none; padding:0 0 0 0; margin: 0 0 0 0;">
+<div style="font-family: Verdana;font-size: 8pt;background-image:url(/assets/images/subway.png);background-repeat:no-repeat;background-position: left top; width:900px; height:550px;padding:0 0 0 0; margin: 10px 0 0 -36px;">
+<style>a{text-decoration:none;}</style>
+  <span class="text" style="width:100px;text-align: left; margin:0 0 0 12px;position:absolute;top:308px;left:32px">
+    <a href="/guide/sustainable.html">Sustainable Pace</a>
+</span>
+  <span class="text" style="width:100px;text-align: center; margin:12px 0 0 -50px;position:absolute;top:320px;left:96px">
+    <a href="/guide/pairing.html">Pair Programming</a>
+</span>
+  <span class="text" style="width:100px;text-align: center; margin: 0 0 12px -50px;position:absolute;top:296px;left:160px">
+    <a href="/guide/volunteer.html">Sign up</a>
+</span>
+  <span class="text" style="width:100px;text-align: center; margin:12px 0 0 -50px;position:absolute;top:320px;left:224px">
+    <a href="/guide/daily.html">Daily meeting</a>
+</span>
+  <span class="text" style="width:100px;text-align: center; margin: 0 0 12px -50px;position:absolute;top:296px;left:288px">
+    <a href="/guide/iteration.html">Iterations</a>
+</span>
+  <span class="text" style="width:100px;text-align: center; margin:12px 0 0 -50px;position:absolute;top:320px;left:360px">
+    <a href="/guide/velocity.html">Velocity</a>
+</span>
+  <span class="text" style="width:100px;text-align: center; margin:12px 0 0 -50px;position:absolute;top:320px;left:416px">
+    <a href="/guide/smallrelease.html">Frequent releases</a>
+</span>
+  <span class="text" style="width:100px;text-align: center; margin: 0 0 12px -50px;position:absolute;top:296px;left:480px">
+    <a href="/guide/stories.html">User stories</a>
+</span>
+  <span class="text" style="width:100px;text-align: center; margin:12px 0 0 -50px;position:absolute;top:320px;left:544px">
+    <a href="/guide/.html">Collective Ownership</a>
+</span>
+  <span class="text" style="width:100px;text-align: center; margin: 0 0 12px -50px;position:absolute;top:296px;left:608px">
+    <a href="/guide/cco.html">Continuous Integration</a>
+</span>
+  <span class="text" style="width:100px;text-align: center; margin:12px 0 0 -50px;position:absolute;top:320px;left:672px">
+    <a href="/guide/yagni.html">Simple design</a>
+</span>
+  <span class="text" style="width:100px;text-align: center; margin: 0 0 12px -50px;position:absolute;top:296px;left:736px">
+    <a href="/guide/refactoring.html">Refactoring</a>
+</span>
+  <span class="text" style="width:100px;text-align: left; margin:0 0 0 12px;position:absolute;top:308px;left:810px">
+    <a href="/guide/tdd.html">TDD</a>
+</span>
+  <span class="text" style="width:100px;text-align: left; margin:0 0 0 12px;position:absolute;top:372px;left:32px">
+    <a href="/guide/charter.html">Project charters</a>
+</span>
+  <span class="text" style="width:100px;text-align: left; margin:0 0 0 12px;position:absolute;top:244px;left:64px">
+    <a href="/guide/scrumofscrums.html">Scrum of Scrums</a>
+</span>
+  <span class="text" style="width:100px;text-align: left; margin:0 0 0 12px;position:absolute;top:276px;left:96px">
+    <a href="/guide/nikoniko.html">Niko-niko</a>
+</span>
+  <span class="text" style="width:100px;text-align: center; margin:12px 0 0 -50px;position:absolute;top:384px;left:96px">
+    <a href="/guide/teamroom.html">Team room</a>
+</span>
+  <span class="text" style="width:100px;text-align: center; margin:12px 0 0 -50px;position:absolute;top:416px;left:160px">
+    <a href="/guide/heartbeatretro.html">Heartbeat retrospective</a>
+</span>
+  <span class="text" style="width:100px;text-align: center; margin: 0 0 12px -50px;position:absolute;top:392px;left:224px">
+    <a href="/guide/facilitation.html">Facilitation</a>
+</span>
+  <span class="text" style="width:100px;text-align: left; margin:0 0 0 12px;position:absolute;top:468px;left:256px">
+    <a href="/guide/team.html">Team</a>
+</span>
+  <span class="text" style="width:100px;text-align: center; margin:12px 0 0 -50px;position:absolute;top:96px;left:96px">
+    <a href="/guide/leadtime.html">Lead time</a>
+</span>
+  <span class="text" style="width:100px;text-align: center; margin:12px 0 0 -50px;position:absolute;top:64px;left:160px">
+    <a href="/guide/kanban.html">Kanban board</a>
+</span>
+  <span class="text" style="width:100px;text-align: center; margin:12px 0 0 -50px;position:absolute;top:480px;left:320px">
+    <a href="/guide/iterative.html">Iterative development</a>
+</span>
+  <span class="text" style="width:100px;text-align: left; margin:0 0 0 12px;position:absolute;top:372px;left:330px">
+    <a href="/guide/timebox.html">Timebox</a>
+</span>
+  <span class="text" style="width:100px;text-align: left; margin:0 0 0 12px;position:absolute;top:244px;left:200px">
+    <a href="/guide/threeqs.html">Three Questions</a>
+</span>
+  <span class="text" style="width:100px;text-align: left; margin:0 0 0 12px;position:absolute;top:180px;left:200px">
+    <a href="/guide/burndown.html">Burndown chart</a>
+</span>
+  <span class="text" style="width:100px;text-align: left; margin:0 0 0 12px;position:absolute;top:116px;left:200px">
+    <a href="/guide/taskboard.html">Task board</a>
+</span>
+  <span class="text" style="width:100px;text-align: center; margin: 0 0 12px -50px;position:absolute;top:40px;left:224px">
+    <a href="/guide/sashimi.html">Definition of Done</a>
+</span>
+  <span class="text" style="width:100px;text-align: center; margin:12px 0 0 -50px;position:absolute;top:64px;left:288px">
+    <a href="/guide/ready.html">Definition of Ready</a>
+</span>
+  <span class="text" style="width:100px;text-align: center; margin: 0 0 12px -50px;position:absolute;top:40px;left:352px">
+    <a href="/guide/nuts.html">Point estimates</a>
+</span>
+  <span class="text" style="width:100px;text-align: center; margin:12px 0 0 -50px;position:absolute;top:64px;left:416px">
+    <a href="/guide/relative.html">Relative estimation</a>
+</span>
+  <span class="text" style="width:100px;text-align: center; margin: 0 0 12px -50px;position:absolute;top:40px;left:480px">
+    <a href="/guide/poker.html">Planning poker</a>
+</span>
+  <span class="text" style="width:100px;text-align: center; margin:12px 0 0 -50px;position:absolute;top:64px;left:544px">
+    <a href="/guide/backlog.html">Backlog</a>
+</span>
+  <span class="text" style="width:100px;text-align: center; margin:12px 0 0 -50px;position:absolute;top:128px;left:576px">
+    <a href="/guide/grooming.html">Backlog grooming</a>
+</span>
+  <span class="text" style="width:100px;text-align: center; margin:12px 0 0 -50px;position:absolute;top:192px;left:576px">
+    <a href="/guide/personas.html">Personas</a>
+</span>
+  <span class="text" style="width:100px;text-align: center; margin:12px 0 0 -50px;position:absolute;top:224px;left:512px">
+    <a href="/guide/storymap.html">Story mapping</a>
+</span>
+  <span class="text" style="width:100px;text-align: center; margin:12px 0 0 -50px;position:absolute;top:256px;left:480px">
+    <a href="/guide/split.html">Story splitting</a>
+</span>
+  <span class="text" style="width:100px;text-align: center; margin:12px 0 0 -50px;position:absolute;top:384px;left:480px">
+    <a href="/guide/3C.html">3 C's</a>
+</span>
+  <span class="text" style="width:100px;text-align: center; margin:12px 0 0 -50px;position:absolute;top:416px;left:416px">
+    <a href="/guide/invest.html">INVEST</a>
+</span>
+  <span class="text" style="width:100px;text-align: center; margin: 0 0 12px -50px;position:absolute;top:456px;left:384px">
+    <a href="/guide/incremental.html">Incremental development</a>
+</span>
+  <span class="text" style="width:100px;text-align: center; margin:12px 0 0 -50px;position:absolute;top:256px;left:576px">
+    <a href="/guide/cd.html">Continuous deployment</a>
+</span>
+  <span class="text" style="width:100px;text-align: right; margin:0 12px 0 -112px;position:absolute;top:404px;left:628px">
+    <a href="/guide/autobuild.html">Automated build</a>
+</span>
+  <span class="text" style="width:100px;text-align: center; margin:12px 0 0 -50px;position:absolute;top:480px;left:608px">
+    <a href="/guide/versioncontrol.html">Version control</a>
+</span>
+  <span class="text" style="width:100px;text-align: center; margin:12px 0 0 -50px;position:absolute;top:182px;left:648px">
+    <a href="/guide/ubiquitous.html">Ubiquitous language</a>
+</span>
+  <span class="text" style="width:100px;text-align: center; margin:12px 0 0 -50px;position:absolute;top:384px;left:736px">
+    <a href="/guide/simplicity.html">Rules of simplicity</a>
+</span>
+  <span class="text" style="width:100px;text-align: left; margin:0 0 0 12px;position:absolute;top:436px;left:684px">
+    <a href="/guide/quickdesign.html">Quick design session</a>
+</span>
+  <span class="text" style="width:100px;text-align: center; margin:12px 0 0 -50px;position:absolute;top:512px;left:672px">
+    <a href="/guide/crc.html">CRC cards</a>
+</span>
+  <span class="text" style="width:100px;text-align: center; margin:12px 0 0 -50px;position:absolute;top:96px;left:640px">
+    <a href="/guide/rolefeature.html">Role-Feature</a>
+</span>
+  <span class="text" style="width:100px;text-align: center; margin: 0 0 12px -50px;position:absolute;top:72px;left:704px">
+    <a href="/guide/gwt.html">Given-When-Then</a>
+</span>
+  <span class="text" style="width:100px;text-align: center; margin:12px 0 0 -50px;position:absolute;top:96px;left:768px">
+    <a href="/guide/bdd.html">BDD</a>
+</span>
+  <span class="text" style="width:100px;text-align: left; margin:0 0 0 12px;position:absolute;top:116px;left:810px">
+    <a href="/guide/atdd.html">ATDD</a>
+</span>
+  <span class="text" style="width:100px;text-align: left; margin:0 0 0 12px;position:absolute;top:180px;left:810px">
+    <a href="/guide/acceptance.html">Acceptance tests</a>
+</span>
+  <span class="text" style="width:100px;text-align: left; margin:0 0 0 12px;position:absolute;top:244px;left:810px">
+    <a href="/guide/mocks.html">Mock objects</a>
+</span>
+  <span class="text" style="width:100px;text-align: left; margin:0 0 0 12px;position:absolute;top:372px;left:810px">
+    <a href="/guide/unittest.html">Unit tests</a>
+</span>
+  <span class="text" style="width:100px;text-align: left; margin:0 0 0 12px;position:absolute;top:436px;left:810px">
+    <a href="/guide/exploratory.html">Exploratory testing</a>
+</span>
+  <span class="text" style="width:100px;text-align: center; margin:12px 0 0 -50px;position:absolute;top:512px;left:800px">
+    <a href="/guide/usability.html">Usability testing</a>
+</span>
 </div>
-
-<script type="text/javascript">
-$(function() {
-    $(".subway-map").subwayMap({
-        debug: true
-    });
-});
-</script>
+<a href="/">Back to the Guide's home page</a>
+</div>
