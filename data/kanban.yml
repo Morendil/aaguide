@@ -7,21 +7,22 @@ sections:
   -
     type: desc
     text: |
-      The term "kanban" refers to a style of Agile planning which modifies several well-known Agile practices:
+      In the context of Agile teams where the "Kanban method" of continuous improvement (or some of its concepts) has been followed, the following adaptations are often seen:
 
-      * it dispenses with [iterations](iteration.html), [effort estimates](estimation.html) and measuring [velocity](velocity.html);
-      * it relies on measures of [lead time](leadtime.html) or cycle time instead of velocity
-      * finally, the most visible alteration replaces the [task board](taskboard.html) with a "kanban board":
+      * such teams deemphasize the use of [iterations](iteration.html), [effort estimates](estimation.html) and [velocity](velocity.html) as a primary measure of progress;
+      * they rely on measures of [lead time](leadtime.html) or cycle time instead of velocity;
+      * and in the most visible alteration, they replace the [task board](taskboard.html) with a "kanban board":
         * unlike a task board, the kanban board is not "reset" at the beginning of each iteration
         * its columns represent the different processing states of a "unit of value", which is generally (but not necessarily) equated with a [user story](stories.html)
         * in addition, each column may have associated with it a "WIP limit" (for "work in process" or "work in progress"): if a given state, for instance "in manual testing", has a WIP limit of, say, 2, then the team *may not* start testing a third user story if two are already being worked on
-        * whenever such a situation arises, the priority is to clear current work-in-process, if necessary by having other team members pause their current work to pitch in with the activity that has reached its limit.
+        * whenever such a situation arises, the priority is to clear current work-in-process, and team members will "swarm" to help those working on the activity in question
   -
     type: syno
     text: |
       The term "kanban" is Japanese (看板), with the sense of a sign, poster or billboard, and derived from roots which literally translate as "visual board".
       Its meaning within the Agile context is borrowed from the Toyota Production System, where it designates a system to control the inventory levels of various parts. It is analogous to (and in fact inspired by) cards placed behind products on supermarket shelves to signal "out of stock" items and trigger a resupply "just in time".
       The Toyota system affords a precise accounting of inventory or "work in process", and strives for a reduction of inventory levels, considered wasteful and harmful to performance.
+      The phrase "Kanban method" also refers to an approach to continuous improvement which relies on visualizing the current system of work scheduling, managing "flow" as the primary measure of performance, and whole-system optimization - as a process improvement approach, it does not prescribe any particular practices.
   -
     type: abus
     text: |
@@ -31,7 +32,7 @@ sections:
     type: benefices
     text: |
       In some contexts, measuring lead time rather than velocity, and dispensing with the regular rhythm of iterations, may be the more appropriate choice: for instance, when there is little concern with achieving a specific release date, or when the team's work is by nature continuous and ongoing, such as enhancement or maintenance, in particular of more than one product.
-      At the risk of oversimplifying, the kanban approach can be considered first for efforts involving maintenance or ongoing evolution, whereas iterations are a more natural first choice in efforts described as "projects".
+      At the risk of oversimplifying, a "kanban board" setup can be considered first for efforts involving maintenance or ongoing evolution, whereas a "task board" setup may be a more natural first choice in efforts described as "projects".
   -
     type: histo
     text: |
