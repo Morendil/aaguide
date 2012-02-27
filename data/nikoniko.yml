@@ -27,5 +27,6 @@ sections:
   -
     type: histo
     text: |
+      * 2001: among the visualizations described in Norm Kerth's "Project Retrospectives", the "Energy Seismograph" can perhaps be seen as a forerunner of the [niko-niko calendar](nikoniko.html)
       * 2006: niko-niko calendars are first described by Akinori Sakata in [this Web article](http://www.geocities.jp/nikonikocalendar/index_en.html)
 ---
