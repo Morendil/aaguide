@@ -12,7 +12,7 @@ sections:
       Some important guidelines for an effective design session are:
 
         * considering several credible alternatives ("straw man" proposals don't count), ideally three or more, so that the final choice is based on considerations such as simplicity or conceptual integrity;
-        * assessing each alternative on the basis of a concrete, specific scenario; for instance envisioning how the [acceptance test](acceptance.html) associated with a specific[user story](stories.html) would unfold under each possible design.
+        * assessing each alternative on the basis of a concrete, specific scenario; for instance envisioning how the [acceptance test](acceptance.html) associated with a given [user story](stories.html) would unfold under each possible design.
   -
     type: syno
     text: |
