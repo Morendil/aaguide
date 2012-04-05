@@ -22,8 +22,8 @@ sections:
     text: |
       Personas should not be confused with other conceptual tools used in defining software requirements or in product marketing:
 
-      * they are not "user roles" (such as sales person, administrator, etc.) primarily defined in terms of tasks or job descriptions; personas put the emphasis on goals and behaviours
-      * they are not "market segments" (such as "18-25s who exercise") primarily defined in term of demographic attributes; personas are users rather than buyers.
+        * they are not "user roles" (such as sales person, administrator, etc.) primarily defined in terms of tasks or job descriptions; personas put the emphasis on goals and behaviours
+        * they are not "market segments" (such as "18-25s who exercise") primarily defined in term of demographic attributes; personas are users rather than buyers.
   -
     type: pubs
     text: |
