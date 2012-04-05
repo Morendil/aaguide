@@ -22,8 +22,7 @@ sections:
   -
     type: histo
     text: |
-      
-      The names of various celebrities have been invoked in an attempt to imbue pair programming with an aura of necessity if not sanctity: anecdotes of John Von Neummann, Fred Brooks, Jerry Weinberg, Richard Gabriel or [Edsger Dijkstra](http://c2.com/cgi/wiki?DijkstraPairProgramming) using the practice are fascinating but sometimes hard to substantiate.
+      The names of various celebrities have been invoked in an attempt to imbue pair programming with an aura of necessity if not sanctity; anecdotes of John Von Neummann, Fred Brooks, Jerry Weinberg, Richard Gabriel or [Edsger Dijkstra](http://c2.com/cgi/wiki?DijkstraPairProgramming) using the practice are fascinating but sometimes hard to substantiate.
       However, the following timeline of verifiable sources does suggest that pair programming, in its modern form, has been around since well before the Agile movement:
 
       * 1992: "Dynamic Duo" is the term coined by Larry Constantine, reporting on a visit to Whitesmiths Inc., a compiler vendor started by P.J. Plauger, one of the implementors of C: "At each terminal were two programmers! Of course, only one programmer was actually cutting code at each keyboard, but the others were peering over their shoulders." Whitesmiths existed from 1978 to 1988.
