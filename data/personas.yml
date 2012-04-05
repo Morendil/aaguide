@@ -22,15 +22,15 @@ sections:
     text: |
       Personas should not be confused with other conceptual tools used in defining software requirements or in product marketing:
 
-        * they are not "user roles" (such as sales person, administrator, etc.) primarily defined in terms of tasks or job descriptions; personas put the emphasis on goals and behaviours
-        * they are not "market segments" (such as "18-25s who exercise") primarily defined in term of demographic attributes; personas are users rather than buyers.
+      * they are not "user roles" (such as sales person, administrator, etc.) primarily defined in terms of tasks or job descriptions; personas put the emphasis on goals and behaviours
+      * they are not "market segments" (such as "18-25s who exercise") primarily defined in term of demographic attributes; personas are users rather than buyers.
   -
     type: pubs
     text: |
       Two interesting empirical studies examine this practice:
 
-        * ["An Empirical Study Demonstrating How Different Design Constraints, Project Organization and Contexts Limited the Utility of Personas"](http://portal.acm.org/citation.cfm?id=1043147) by Ronkko et al. (2005) is a case study based on three projects, suggesting that ordinary corporate politics might undermine much of the benefits from the practice
-        * ["Real or Imaginary: The effectiveness of using personas in product design"](http://www.frontend.com/products-digital-devices/real-or-imaginary-the-effectiveness-of-using-personas-in-product-design.html) by Long (2009) is an experimental study, with a student population, which tends to confirm the benefits of the practice
+      * ["An Empirical Study Demonstrating How Different Design Constraints, Project Organization and Contexts Limited the Utility of Personas"](http://portal.acm.org/citation.cfm?id=1043147) by Ronkko et al. (2005) is a case study based on three projects, suggesting that ordinary corporate politics might undermine much of the benefits from the practice
+      * ["Real or Imaginary: The effectiveness of using personas in product design"](http://www.frontend.com/products-digital-devices/real-or-imaginary-the-effectiveness-of-using-personas-in-product-design.html) by Long (2009) is an experimental study, with a student population, which tends to confirm the benefits of the practice
   -
     type: histo
     text: |
