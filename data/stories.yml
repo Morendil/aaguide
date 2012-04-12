@@ -2,4 +2,36 @@
 title: User stories
 type: Skill
 id: stories
+full: yes
+sections:
+  -
+    type: desc
+    text: |
+      In consultation with the customer or product owner, the team divides up the work to be done into functional increments called "user stories".
+      Each user story is expected to yield, once implemented, a contribution to the value of the overall product, irrespective of the order of implementation; these and other assumptions as to the nature of user stories are captured by the [INVEST](invest.html) formula.
+      To make these assumptions tangible, user stores are reified into a physical form: an index card or sticky note, on which a brief descriptive sentence is written to serve as a reminder of its value. This emphasizes the "atomic" nature of user stories and encourages [direct physical manipulation](http://en.wikipedia.org/wiki/Direct_manipulation_interface): for instance, decisions about scheduling are made by physically moving around these "story cards".
+  -
+    type: abus
+    text: |
+      * a classic mistake consists, in teams where the Agile approach is confined to the development team or adopted after a non-Agile requirements phase, to start from a requirements document in narrative format and derive user stories directly based on its structure: for instance one story for each section of the document
+      * as the [3 C's](3C.html) model emphasizes, a user story is not a document; the term encompasses all of the knowledge required to transform a version V of the product into version V' which is more valuable with respect to a particular goal
+      * the level of detail corresponding to a user story is not constant, it evolves over time as a function of the "planning horizon"; for instance a user story which is scheduled for the next iteration should be better understood than one which will not be implemented until the next release
+      * a user story is not a Use Case; although it is often useful to compare and contrast the two notions, they are not equivalent and do not admit a one-to-one mapping
+      * a user story does not in general correspond to a technical or user interface component: even though it may sometimes be a useful shortcut to talk about e.g. "the search dialog story", screens, dialog boxes and buttons are not user stories 
+  -
+    type: benefices
+    text: |
+      For most Agile teams user stories are the main vehicle of [incremental](incremental.html) software delivery, and offer the following benefits:
+
+      * mitigating the risks of delayed feedback, all the more so
+        * if the increments are small
+        * if the software is [released](smallrelease.html) to production frequently
+      * for the customer or product owner, the option to change their mind on the details or the schedule priority of any user story not yet implemented
+      * for developers, being given clear and precise acceptance criteria, and ongoing feedback as they complete work
+      * promoting a clear separation of responsibilities between defining the "what" (province of the customer or product owner) and the "how" (province of the technical team), leveraging the skills and creativity of each
+  -
+    type: cost
+    text: |
+      Incremental development in general, and the "nano-incremental" strategy embodied in user stories in particular, has significant impacts on projects' testing strategies, and in particular all but mandates significant test automation.
+      This follows from the so-called "[quadratic growth](http://www.hans-eric.com/wp-content/uploads/2011/05/Incremental-development-and-regression-testing.pdf)" problem: after implementation of feature F1 it is normal to test that feature. After implementation of feature F2, the risk of regression dictates re-testing F1 as well as testing F2. A test sequence assuming incremental development therefore goes: F1,F1+F2,F1+F2+F3, etc. - this grows as the square of the number of features, and can therefore quickly become unmanageable as projects grow in size. Test automation (in particular [unit](unittest.html) and [acceptance](acceptance.html) testing) mitigates this effect, although it does come at a cost.
 ---
