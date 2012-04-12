@@ -18,6 +18,7 @@ sections:
   -
     type: benefices
     text: |
+      * using a structured, game-like format keeps things moving along and avoids the estimating meeting getting bogged down in interminable discussions (this particular outcome was the original intent of the practice)
       * the meeting's format offers an opportunity to leverage the knowledge of all team members, whereas in a less structured meeting format, the more outgoing team members sometimes shut out the quiet ones
       * the conversation following the revealing of initial estimates is a great way to pool insights about the user story being discussed and surface implementation risks
   -
