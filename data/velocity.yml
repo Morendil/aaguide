@@ -10,7 +10,7 @@ sections:
       At the end of each iteration, the team adds up effort [estimates](nuts.html) associated with [user stories](stories.html) that were [completed](sashimi.html) during that iteration. This total is called velocity.
       Knowing velocity, the team can compute (or revise) an estimate of how long the project will take to complete, based on the estimates associated with remaining user stories and assuming that velocity over the remaining iterations will remain approximately the same. This is generally an accurate prediction, even though rarely a precise one.
   -
-    type: benefits
+    type: benefices
     text: |
       **Worked example:** an agile team has started work on an iteration, planning to complete stories A and B, estimated at 2 points each, and story C, estimated at 3 points. At the end of the iteration, stories A and B are 100% complete but C is only 80% complete.
       Agile teams generally acknowledge only two levels of completion, 0% done or 100% done. Therefore, C is not counted toward velocity, and velocity as of that iteration is 4 points.
